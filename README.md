@@ -4,7 +4,7 @@
 
 DOI: [10.7937/TCIA.T905-ZQ20](https://www.cancerimagingarchive.net/collection/glis-rt/)
 
-A fork of the [UNETR++](https://github.com/Amshaker/unetr_plus_plus/) repo after training on a [dual socket xeon](https://www.intel.com/content/www/us/en/products/sku/120485/intel-xeon-gold-6140-processor-24-75m-cache-2-30-ghz/specifications.html) with [nvidia graphics](https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-16-gb.c2888). Some modifications, including a new eval script. 
+A fork of the [UNETR++](https://github.com/Amshaker/unetr_plus_plus/) repo. Some modifications, including a new eval script. 
 
 ### Acknowledgements:
 * Prof. Marios Patichis (UNM)
@@ -54,7 +54,7 @@ pip install --upgrade pip setuptools wheel build
 pip install -r requirements.txt
 ```
 
-## Re-training:
+## Training:
 
 Directory structure should look something like:
 
@@ -71,7 +71,7 @@ keithhbova@Keiths-MacBook-Pro unet_gbm % tree
 └── unetr_pp/...
 ```
 
-To retrain:
+To train:
 
 
 ```bash
