@@ -29,7 +29,7 @@ Clone this repo and copy the data:
 
 ```bash
 git clone --depth=10 https://github.com/keixthb/unet_gbm.git ~/unet_gbm/
-git clone --depth=1 https://lobogit.unm.edu/keithhbova1/DATASET_Tumor.git ~/unet_gbm/DATASET_Tumor
+git clone --depth=10 https://lobogit.unm.edu/keithhbova1/DATASET_Tumor.git ~/unet_gbm/DATASET_Tumor
 ```
 
 Note that ```https://lobogit.unm.edu/keithhbova1/DATASET_Tumor.git``` is an archive of the [UNETR++ BRATS DATASET](https://mbzuaiac-my.sharepoint.com/:u:/g/personal/abdelrahman_youssief_mbzuai_ac_ae/EaQOxpD2yE5Btl-UEBAbQa0BYFBCL4J2Ph-VF_sqZlBPSQ?e=DFY41h). After downloading all the files, you can build dependencies:
